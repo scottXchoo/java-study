@@ -4,11 +4,10 @@ import java.util.Scanner;
 
 public class MethodEx4Ref {
     public static void main(String[] args) {
-        printMenu();
-
         Scanner s = new Scanner(System.in);
         int balance = 0;
         while (true) {
+            printMenu();
             System.out.print("선택: ");
             int option = s.nextInt();
             switch (option) {
